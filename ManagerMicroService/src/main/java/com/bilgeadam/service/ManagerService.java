@@ -120,7 +120,6 @@ public class ManagerService extends ServiceManager<Manager, String> {
         config.put("api_key", "261194321947226");
         config.put("api_secret", "K5_9m33MSDBvu4MZuHhHWeFxNeA");
         Cloudinary cloudinary = new Cloudinary(config);
-
         try {
             Map<?, ?> result = cloudinary.uploader().upload(file.getBytes(), ObjectUtils.emptyMap());
             String url = (String) result.get("url");
@@ -144,7 +143,6 @@ public class ManagerService extends ServiceManager<Manager, String> {
         return IManagerMapper.INSTANCE.froInfoManager(manager.get());
     }
     public SummarForCompany summaryForCompany(String companyId) {
-
         Optional<Manager> manager = managerRepository.findOptionalByCompanyid(companyId);
         SummarForCompany summarForCompany = SummarForCompany.builder()
                 .email(manager.get().getEmail())

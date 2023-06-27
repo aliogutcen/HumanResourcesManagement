@@ -1,6 +1,5 @@
 server:
   port: 9091
-
 spring:
   rabbitmq:
     host: localhost
@@ -14,6 +13,5 @@ spring:
       username: "bilgeadam"
       password: "adminservice"
       database: "adminDB"
-
 jwt:
   secretKey: ${PASSWORD}

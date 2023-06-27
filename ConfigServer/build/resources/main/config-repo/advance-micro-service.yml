@@ -13,6 +13,5 @@ spring:
       username: "bilgeadam"
       password: "advanceservice"
       database: "advanceDB"
-
 jwt:
   secretKey: ${PASSWORD}

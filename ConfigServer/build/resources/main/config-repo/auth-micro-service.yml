@@ -1,6 +1,5 @@
 server:
   port: 9090
-
 spring:
   rabbitmq:
     host: localhost
@@ -15,11 +14,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-
     show-sql: true
     properties:
       hibernate:
         format_sql: true
-
 jwt:
   secretKey: ${PASSWORD}

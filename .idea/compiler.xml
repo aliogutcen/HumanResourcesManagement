@@ -8,19 +8,19 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mapstruct/mapstruct-processor/1.5.3.Final/dce418bedafd71ff8dd2cef15006c0fee788b073/mapstruct-processor-1.5.3.Final.jar" />
         </processorPath>
-        <module name="human_backend.HumanResourcesManagement.AdminMicroService.main" />
-        <module name="com.bilgeadam.HumanResourcesManagement.PermissionMicroService.main" />
-        <module name="human_backend.HumanResourcesManagement.ConfigServer.main" />
-        <module name="HumanResourcesManagement.ExpenseMicroService.main" />
-        <module name="HumanResourcesManagement.WorkerMicroService.main" />
-        <module name="HumanResourcesManagement.AdvanceMicroService.main" />
-        <module name="HumanResourcesManagement.ConfigServerGit.main" />
+        <module name="humanresources.HumanResourcesManagement.ConfigServerGit.main" />
+        <module name="humanresources.HumanResourcesManagement.ExpenseMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.CompanyMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.MailMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.ManagerMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.PermissionMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.AdminMicroService.main" />
         <module name="HumanResourcesManagement.main" />
-        <module name="HumanResourcesManagement.ManagerMicroService.main" />
-        <module name="HumanResourcesManagement.MailMicroService.main" />
-        <module name="human_backend.HumanResourcesManagement.AuthMicroService.main" />
-        <module name="HumanResourcesManagement.CompanyMicroService.main" />
-        <module name="com.bilgeadam.HumanResourcesManagement.ApiGatewayService.main" />
+        <module name="humanresources.HumanResourcesManagement.AdvanceMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.AuthMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.WorkerMicroService.main" />
+        <module name="humanresources.HumanResourcesManagement.ConfigServer.main" />
+        <module name="humanresources.HumanResourcesManagement.ApiGatewayService.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
